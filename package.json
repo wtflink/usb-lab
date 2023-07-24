@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "node-hid": "^2.1.1",
-    "usb": "^1.7.1"
+    "usb": "1.7.1"
   }
 }

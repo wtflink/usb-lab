@@ -90,9 +90,7 @@ async function toggleKVM() {
   return setKVMStatus(1 - result);
 }
 
-toggleKVM()
-  .then(console.log('toggle KVM!'))
-  .then(() => {
+toggleKVM().then(console.log('toggle KVM!')).then(() => {
     delay(usbDelay);
     process.exit(0);
   });
